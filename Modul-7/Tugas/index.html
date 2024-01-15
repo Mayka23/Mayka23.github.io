@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      background-image: url(ghibli.jpg);
+      background-size: cover;
+    }
+    .navbar {
+      overflow: hidden;
+      background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 255, 0));
+
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f8f7f7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 255, 0));
+      color: rgb(239, 236, 234);
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .profile {
+      text-align: center;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .profile h1 {
+      margin: 0;
+      padding: 0;
+      color: #9a4040;
+    }
+    .profile p {
+      margin: 0;
+      padding: 0;
+      color: #9a4040;
+    }
+    .education {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .education .school {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(to right, rgb(239, 106, 70), rgb(234, 234, 109));
+      text-align: center;
+      line-height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #sd, #smp, #sma {
+      display: block;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 20px;
+      text-align: center;
+      background: linear-gradient(to right, rgb(239, 106, 70), rgb(234, 234, 109));
+      margin-top: 20px;
+    }
+  </style>
+  
+  <title>About Me</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="container">
+    <div class="profile">
+      <img src="gambar.jpg" alt="Profile Picture">
+      <h1>Mayka Yudha Paradya</h1> <br>
+
+      <p>Mahasiswa Teknik Informatika</p>
+      <p>Universitas PGRI Madiun</p>
+    </div>
+    <div class="education">
+        <div class="school" data-text="SD"><a href="#sd">SD</a></div>
+        <div class="school" data-text="SMP"><a href="#smp">SMP</a></div>
+        <div class="school" data-text="SMA"><a href="#sma">SMA</a></div>
+    </div>
+    <div id="sd">
+        <h2>SD</h2>
+        <p>Saya sekolah di SDN 04 Madiun Lor. 
+        </p>
+    </div>
+    <div id="smp">
+        <h2>SMP</h2>
+        <p>SMP 12 Madiun yang berlokasi di JL. Yos Sudarso 
+        </p>
+    </div>
+    <div id="sma">
+        <h2>SMK</h2>
+        <p>SMA Bonaventura Madiun
+        </p>
+    </div>
+</body>
+</html>
