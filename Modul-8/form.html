@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Program JavaScript</title>
+  </head>
+  <body>
+    <script>
+      function ubahWarnaLB(warna) {
+        document.body.style.backgroundColor = warna;
+      }
+      function ubahWarnaLD(warna) {
+        document.body.style.color = warna;
+      }
+    </script>
+    <h1>TES</h1>
+    <form>
+      <input type="button" value="Latar Belakang Hijau" onclick="ubahWarnaLB('green')" />
+      <input type="button" value="Latar Belakang Putih" onclick="ubahWarnaLB('white')" />
+      <input type="button" value="Text Kuning" onclick="ubahWarnaLD('yellow')" />
+      <input type="button" value="Text Biru" onclick="ubahWarnaLD('blue')" />
+    </form>
+  </body>
+</html>
